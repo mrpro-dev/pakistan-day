@@ -1,0 +1,229 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  background-color:#daf2f9;
+  font-family: cursive,'Patua One';
+}
+
+#img{
+  width:80%;
+  height:500px;
+  margin-top: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+h1{
+  padding: 0;
+  margin-top: -50px;
+
+}
+
+p{
+  margin-top: -30px;
+  color: black;
+}
+
+.text-genrator{
+  width: 40%;
+  margin: 0 auto 0 auto;
+  height: auto;
+  margin-top:10px;
+  font-size:2rem;
+  border: 200px solid transparent;
+  border-image: url(border.png) 40% round ;
+  color: skyblue;
+}
+
+.march{
+  margin-top:10px;
+}
+
+sup{
+  color: green;
+}
+
+#pak{
+  color: #99adadde;
+}
+
+#resol{
+  color: green;
+}
+
+#day{
+  color:#99adadde;
+}
+
+.pak{
+  margin: 0;
+}
+
+.ani{
+  
+  animation-name: color;
+  animation-duration: 3s;
+  animation-direction: right;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes color{
+  
+  50%{
+    color:green;
+  }
+  75%{
+    color:white;
+  }
+  100%{
+    color:green;
+  }
+   
+}
+
+
+#name{
+    text-transform: uppercase;
+  animation-name: nam;
+  animation-duration: 3s;
+  animation-direction: right;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes nam{
+  
+  50%{
+    color:skyblue;
+  }
+  75%{
+    color:gray;
+  }
+  100%{
+    color:cyan;
+  }
+   
+}
+
+
+#an{
+  animation-name: a;
+  animation-duration: 3s;
+  animation-direction: right;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes a{
+  
+  50%{
+    color:#99adadde;
+  }
+  75%{
+    color:green;
+  }
+  100%{
+    color:#99adadde;
+  }
+   
+}
+
+
+
+ Result Skip Results Iframe
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  
+  display: block;
+  width: 600px;
+  height: 120px;
+  line-height: 40px;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: White;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  background-color: none;
+  top:10px;
+  left:180px;
+}
+
+a #like{
+  position: relative;
+  z-index: 2;
+  width: 100px;
+  height:100px;
+  top:5px;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+#num{
+  position: relative;
+  top:-9px;
+  left:-6px;
+}
+
+hr{
+  border: 6px dotted black;
+  border-bottom: none;
+  width: 40px;
+}
+
+#dot{
+  border:8px dotted black;
+  border-bottom: none;
+  width :100px;
+  margin-top:10px;
+  animation-name: dot;
+  animation-duration:2s ;
+  animation-iteration-count: infinite;
+  animation-direction: right;
+}
+
+
+@keyframes dot{
+  
+  20%{
+    border-color:black;
+  }
+  25%{
+    border-color:green;
+  }
+  50%{
+    border-color:cyan;
+  }
+  75%{
+   border-color:greeb;
+  }
+   100%{
+     border-color: black;
+   }
+}
